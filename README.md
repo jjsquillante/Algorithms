@@ -1,2 +1,2 @@
 # Algorithms
-Algorithms, 4th Edition - Rober Sedgewick and Kevin Wayne
+Algorithms, 4th Edition - Robert Sedgewick and Kevin Wayne
