@@ -6,6 +6,12 @@
  - Continue until the array is sorted.
 
 ```
+function exch(arr, i, min) {
+ var itemToSwitch = arr[i];
+ arr[i] = arr[min];
+	arr[min] = itemToSwitch;
+}
+
 function selectionSort(arr) {
   for (var i = 0; i < arr.length; i++) {
     var min = i;
@@ -16,6 +22,7 @@ function selectionSort(arr) {
     }
     exch(arr, i, min);
   }
+  return arr;
 }
 
 ```
